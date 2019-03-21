@@ -1,0 +1,71 @@
+/* Hoja de estilos creada por Mateo Rios Diaz 1037628960
+  constuida con el fin de darle estilos al index.html 
+  para generar una mejor visual al usurio final */
+
+
+/* Diseño H1 Titulo My profile */
+
+.profileTitle {
+    text-align: center;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 45px;
+    padding: 0;
+}
+
+
+/* Diseño del div y la imagen */
+
+.profileImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profileImage img {
+    width: 200px;
+    height: 250px;
+}
+
+
+/* Diseño h2 Saludo  */
+
+.profileSaludo {
+    text-align: center;
+}
+
+
+/*  Contenido de navegacion Menu About me */
+
+.profileMenu {
+    text-align: center;
+}
+
+.profileMenu a {
+    margin: 2em;
+}
+
+
+/* Diseño Top songs   */
+
+.profileSongs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profileSongs div {
+    margin: .5em;
+}
+
+.songsArtist {
+    width: 150px;
+    height: 230px;
+    margin: .5em;
+}
+
+
+/*  Diseño Show Watch  */
+
+.profileWatch {
+    display: flex;
+}
